@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   BBTask sn
+                   This is a library for BBTask-sn.
                     DESC
 
   s.homepage     = "http://github.com/sundayliu/BBTask-sn"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/sundayliu/BBTask-sn.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/sundayliu/BBTask-sn.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
